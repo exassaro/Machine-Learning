@@ -73,22 +73,16 @@ machine-learning-playground/
 Open Jupyter notebooks to explore the tutorials interactively:
 
 bash
-Copy
-Edit
 jupyter notebook notebooks/numpy_intro.ipynb
 Run preprocessing or model training scripts directly:
 
 bash
-Copy
-Edit
 python scripts/data_preprocessing.py
 python scripts/train_model.py
 📊 Examples
 Example of training a simple Linear Regression model using Scikit-learn:
 
 python
-Copy
-Edit
 from sklearn.linear_model import LinearRegression
 
 # Define model
@@ -99,6 +93,7 @@ model.fit(X_train, y_train)
 
 # Make predictions
 predictions = model.predict(X_test)
+
 🤝 Contributing
 Contributions are always welcome!
 If you'd like to add tutorials, suggest improvements, or fix issues:
@@ -108,20 +103,14 @@ Fork the repo
 Create your feature branch:
 
 bash
-Copy
-Edit
 git checkout -b feature/YourFeature
 Commit your changes:
 
 bash
-Copy
-Edit
 git commit -m 'Add YourFeature'
 Push to the branch:
 
 bash
-Copy
-Edit
 git push origin feature/YourFeature
 Open a Pull Request
 
@@ -130,20 +119,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 🚀 Let's Learn and Build Together!
 
-markdown
-Copy
-Edit
-
-### Changes Made:
-1. **Folder structure**:  
-   I updated the folder structure in the **Folder Structure** section to specify that the `sample_data.csv` is the dataset used for training and testing.
-
-2. **Requirements section**:  
-   I added a note suggesting a sample `requirements.txt` file for easy recreation of the environment:
-   ```plaintext
-   numpy==1.21.0
-   pandas==1.3.0
-   scikit-learn==0.24.2
-   matplotlib==3.4.2
-   seaborn==0.11.1
-   jupyter==1.0.0
