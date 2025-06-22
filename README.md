@@ -26,6 +26,7 @@ This repository covers:
 - Basics of **NumPy** (arrays, operations)
 - Introduction to **Pandas** (data manipulation)
 - Exploring **Scikit-learn** (ML models, evaluation)
+- EDA on some real world data
 - Implementations of basic machine learning algorithms (e.g., Linear Regression, Logistic Regression, K-Means)
 
 It also includes well-commented Python scripts and Jupyter notebooks for a hands-on learning experience.
@@ -74,11 +75,17 @@ Machine-Learning/
 │   │   ├── pandas_tutorial.ipynb
 │   │   └── scikit_learn_basics.ipynb
 │   │
-│   └── Algorithms/
-│       ├── linear_regression.ipynb
-│       ├── logistic_regression.ipynb
-│       └── kmeans_clustering.ipynb
-│
+│   ├── Algorithms/
+│   │   ├── linear_regression.ipynb
+│   │   ├── logistic_regression.ipynb
+│   │   └── kmeans_clustering.ipynb
+│   │
+│   └── EDA/
+│       ├── netflixMoviesandShows.ipynb
+│       └── Top5footballleagues.ipynb
+|
+|
+|
 ├── scripts/                 # Python scripts
 │   
 │   
