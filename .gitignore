@@ -38,13 +38,13 @@ build/
 .env.*
 
 # Data files (optional: only ignore if large or temporary)
-*.csv
-*.json
+# *.csv
+# *.json
 
 # Model and output files (optional: adjust as needed)
-*.pkl
-*.h5
-*.joblib
+# *.pkl
+# *.h5
+# *.joblib
 
 # Logs
 *.log
